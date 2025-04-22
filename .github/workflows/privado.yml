@@ -1,7 +1,7 @@
 name: Privado Scan
 on: push
     
-jobs:
+jobs: 
   privado:
     runs-on: ubuntu-latest
     if: github.ref_name == github.event.repository.default_branch
